@@ -1,3 +1,3 @@
 ## 1. Environment
 
-- Ruby 3.4.5
+- Ruby 3.4.6
