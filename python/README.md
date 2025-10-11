@@ -1,3 +1,3 @@
 ## 1. Environment
 
-- Python 3.13.7
+- Python 3.14.0
