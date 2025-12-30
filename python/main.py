@@ -6,7 +6,7 @@ sys.path.append('./src')
 from application import Application
 
 _, branch_name, *_ = sys.argv
-print(Application(branch_name).run())
+print(Application(branch_name = branch_name).run())
 
 pycaches = glob.glob(os.path.join('.', '**', '__pycache__'), recursive = True)
 for pycache in pycaches:
