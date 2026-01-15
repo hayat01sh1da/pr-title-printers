@@ -1,3 +1,3 @@
 ## 1. Environment
 
-- Ruby 4.0.0
+- Ruby 4.0.1
