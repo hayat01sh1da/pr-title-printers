@@ -23,6 +23,5 @@
 Report vulnerabilities privately via:
 
 1. GitHub Security Advisories (**Security → Report a vulnerability**) —  preferred.
-2. Email `security@project.org` with the failing branch naming convention, CLI  parameters, and reproduction steps.
 
 Acknowledgement occurs within **3 business days**; updates are provided at least every **7 business days** until resolution.
