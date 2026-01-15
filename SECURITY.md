@@ -2,39 +2,26 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+- Only the latest workflow on `master` receives security updates. Regenerate your CLI helper from HEAD before filing reports.
+- Legacy templates or forks are unsupported unless the issue reproduces on the stack described below.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Ecosystem & Compatibility
+
+| Component            | Version(s) / Tooling                | Notes |
+| -------------------- | ---------------------------------- | ----- |
+| OS baseline          | WSL (Ubuntu 24.04.3 LTS)           | Matches the documented development environment. |
+| Ruby automation      | Ruby 4.0.1 (`.ruby-version`)       | Depends on Ruby stdlib plus any gems declared inside `ruby/`. |
+| Python automation    | CPython 3.14.2 (`.python-version`) | Uses Python stdlib; introduce `requirements.txt` if third-party libs are added. |
+
+## Backward Compatibility
+
+- CLI flags and branch-name parsing helpers strive to remain backward compatible within a release line (Ruby 4.0.x / Python 3.14.x). If a breaking change is required, it will be documented in the changelog before release.
+- Interpreter versions older than those listed in the Ecosystem table above (for example, prior major releases) are **not supported**, and security fixes are not backported to them.
 
 ## Reporting a Vulnerability
 
-If you believe you have found a security vulnerability in this project, please report it to us privately. Do **not** create a public issue.
+Report vulnerabilities privately via:
 
-You can report vulnerabilities in either of the following ways:
+- GitHub Security Advisories (**Security → Report a vulnerability**) — preferred.
 
-- Use the “Report a vulnerability” option under the **Security** tab of the GitHub repository to open a private security advisory with the maintainers.
-- If you prefer email, contact the maintainers at the security contact listed in the project documentation, including the word “SECURITY” in the subject line.
-
-When reporting, please include:
-
-- A description of the vulnerability and the components or versions affected
-- Steps to reproduce the issue (proof of concept code or configuration, if possible)
-- Any known impact, such as data exposure, privilege escalation, or remote code execution
-- Any suggested remediation or workaround, if you have one
-
-We aim to acknowledge receipt of your report within **3 business days**. You can expect further updates at least every **7 business days** while we investigate.
-
-After triage, we will:
-
-- Assess the severity and scope of the issue
-- Develop and test a fix, if the vulnerability is confirmed
-- Coordinate a release that includes the fix
-- Credit you as the reporter if you wish, subject to responsible disclosure practices
-
-If we determine that the reported issue is not a security vulnerability, we will explain why and, where appropriate, may track it as a regular bug instead.
+Acknowledgement occurs within **3 business days**; updates are provided at least every **7 business days** until resolution.
