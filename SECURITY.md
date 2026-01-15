@@ -16,7 +16,7 @@
 ## Backward Compatibility
 
 - CLI flags and branch-name parsing helpers strive to remain backward compatible within a release line (Ruby 4.0.x / Python 3.14.x). If a breaking change is required, it will be documented in the changelog before release.
-- Older major interpreter versions (Ruby 3.x, Python 3.13 and below) are **not supported**, and security fixes are not backported to them.
+- Interpreter versions older than those listed in the Ecosystem table above (for example, prior major releases) are **not supported**, and security fixes are not backported to them.
 
 ## Reporting a Vulnerability
 
