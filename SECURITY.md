@@ -1,5 +1,3 @@
-# Security Policy
-
 ## Supported Versions
 
 - Only the latest workflow on `master` receives security updates. Regenerate your CLI helper from HEAD before filing reports.
@@ -20,8 +18,7 @@
 
 ## Reporting a Vulnerability
 
-Report vulnerabilities privately via:
+Please report issues privately via **GitHub Security Advisory** (preferred) — open through the repository’s **Security → Report a vulnerability** workflow.
 
-- GitHub Security Advisories (**Security → Report a vulnerability**) — preferred.
-
-Acknowledgement occurs within **3 business days**; updates are provided at least every **7 business days** until resolution.
+Acknowledgement occurs and status updates follow as soon as possible.  
+After remediation we publish guidance alongside required dependency updates.
