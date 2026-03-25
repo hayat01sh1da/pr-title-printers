@@ -5,11 +5,11 @@
 
 ## Ecosystem & Compatibility
 
-| Component            | Version(s) / Tooling                | Notes |
-| -------------------- | ---------------------------------- | ----- |
-| OS baseline          | WSL (Ubuntu 24.04.3 LTS)           | Matches the documented development environment. |
-| Ruby automation      | Ruby 4.0.2 (`.ruby-version`)       | Depends on Ruby stdlib plus any gems declared inside `ruby/`. |
-| Python automation    | CPython 3.14.3 (`.python-version`) | Uses Python stdlib; introduce `requirements.txt` if third-party libs are added. |
+| Component         | Version(s) / Tooling               | Notes                                                                           |
+| ----------------- | ---------------------------------- | ------------------------------------------------------------------------------- |
+| OS baseline       | WSL (Ubuntu 25.10)                 | Shared environment across tracks.                                               |
+| Ruby automation   | Ruby 4.0.2 (`.ruby-version`)       | Depends on Ruby stdlib plus any gems declared inside `ruby/`.                   |
+| Python automation | CPython 3.14.3 (`.python-version`) | Uses Python stdlib; introduce `requirements.txt` if third-party libs are added. |
 
 ## Backward Compatibility
 
