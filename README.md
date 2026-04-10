@@ -1,5 +1,5 @@
-[![Actions Status: UnitTest](https://github.com/hayat01sh1da/pr-title-printers/workflows/UnitTest/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22UnitTest%22)
-[![Actions Status: Minitest](https://github.com/hayat01sh1da/pr-title-printers/workflows/Minitest/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22Minitest%22)
+[![Actions Status: Python](https://github.com/hayat01sh1da/pr-title-printers/workflows/Python/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22Python%22)
+[![Actions Status: Ruby](https://github.com/hayat01sh1da/pr-title-printers/workflows/Ruby/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22Ruby%22)
 [![Actions Status: CodeQL](https://github.com/hayat01sh1da/pr-title-printers/workflows/CodeQL/badge.svg)](https://github.com/hayat01sh1da/pr-title-printers/actions?query=workflow%3A%22CodeQL%22)
 
 ## 1. Common Environment
