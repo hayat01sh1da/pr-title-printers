@@ -1,3 +1,5 @@
+# rbs_inline: enabled
+
 require_relative './src/application'
 
 branch_name, *_ = ARGV
