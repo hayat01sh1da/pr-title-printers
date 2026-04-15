@@ -8,5 +8,7 @@ target :app do
   check 'test'
   signature 'sig'
 
+  library 'minitest'
+
   configure_code_diagnostics(D::Ruby.default)
 end
