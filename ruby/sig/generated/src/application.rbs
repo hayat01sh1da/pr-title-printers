@@ -3,7 +3,7 @@
 class Application
   # @rbs branch_name: String
   # @rbs return: String
-  def self.run: (branch_name: String) -> String
+  def self.run: (?branch_name: String) -> String
 
   # @rbs branch_name: String
   # @rbs return: void

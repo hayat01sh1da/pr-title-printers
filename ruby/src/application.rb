@@ -3,13 +3,13 @@
 class Application
   # @rbs branch_name: String
   # @rbs return: String
-  def self.run(branch_name:)
+  def self.run(branch_name: '')
     self.new(branch_name).run
   end
 
   # @rbs branch_name: String
   # @rbs return: void
-  def initialize(branch_name)
+  def initialize(branch_name :'')
     @branch_name = branch_name
   end
 
