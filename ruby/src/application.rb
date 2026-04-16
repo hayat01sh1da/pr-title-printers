@@ -9,7 +9,7 @@ class Application
 
   # @rbs branch_name: String
   # @rbs return: void
-  def initialize(branch_name :'')
+  def initialize(branch_name: '')
     @branch_name = branch_name
   end
 
