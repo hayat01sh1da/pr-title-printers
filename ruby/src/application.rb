@@ -4,7 +4,7 @@ class Application
   # @rbs branch_name: String
   # @rbs return: String
   def self.run(branch_name: '')
-    self.new(branch_name).run
+    self.new(branch_name:).run
   end
 
   # @rbs branch_name: String
