@@ -7,7 +7,7 @@ class Application
 
   # @rbs branch_name: String
   # @rbs return: void
-  def initialize: (String branch_name) -> void
+  def initialize: (?branch_name: String) -> void
 
   # @rbs return: String
   def run: () -> String
