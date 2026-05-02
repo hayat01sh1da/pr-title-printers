@@ -20,14 +20,14 @@ $ ruby main.rb hayat01sh1da/issue-num/category/pr-title
 ## 4. Unit Test
 
 ```command
-$ ruby test/application_test.rb 
-Run options: --seed 64793
+$ rake
+Run options: --seed 1828
 
 # Running:
 
 ..
 
-Finished in 0.003486s, 573.7272 runs/s, 573.7272 assertions/s.
+Finished in 0.002832s, 706.2429 runs/s, 706.2429 assertions/s.
 
 2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
 ```
