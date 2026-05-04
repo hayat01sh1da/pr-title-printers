@@ -12,7 +12,6 @@ $ bundle lock --add-checksums
 ## 3. Execution
 
 ```command
-$ cd ./ruby
 $ ruby main.rb hayat01sh1da/issue-num/category/pr-title
 [category] Pr Title
 ```
