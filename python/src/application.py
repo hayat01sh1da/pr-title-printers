@@ -1,5 +1,6 @@
 import re
 
+
 class Application:
     def __init__(self, branch_name):
         self.branch_name = branch_name
