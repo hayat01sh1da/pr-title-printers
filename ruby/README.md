@@ -12,7 +12,9 @@ $ bundle lock --add-checksums
 ## 3. Execution
 
 ```command
-$ ruby main.rb hayat01sh1da/issue-num/category/pr-title
+$ rake run_pr_title_printer
+Provide the branch name you would like to generate a PR title for
+hayat01sh1da/issue-num/category/pr-title
 [category] Pr Title
 ```
 
@@ -45,11 +47,11 @@ Inspecting 5 files.....
 
 ```command
 $ rbs-inline --output sig/generated/ .
-🎉 Generated 3 RBS files under sig/generated
+🎉 Generated 2 RBS files under sig/generated
 $ steep check
 # Type checking files:
 
-......
+....
 
 No type error detected. 🫖
 ```
