@@ -5,7 +5,7 @@ import shutil
 import glob
 sys.path.append('./src')
 
-_, branch_name, *_ = sys.argv
+_, branch_name, *_rest = sys.argv
 print(Application(branch_name=branch_name).run())
 
 pycaches = glob.glob(os.path.join('.', '**', '__pycache__'), recursive=True)
