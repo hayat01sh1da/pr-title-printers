@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 # rbs_inline: enabled
 
+# Prints a PR title derived from the current git branch name.
 class Application
   # @rbs branch_name: String
   # @rbs return: String
