@@ -1,10 +1,11 @@
+# frozen_string_literal: true
 # rbs_inline: enabled
 
 class Application
   # @rbs branch_name: String
   # @rbs return: String
   def self.run(branch_name: '')
-    self.new(branch_name:).run
+    new(branch_name:).run
   end
 
   # @rbs branch_name: String
@@ -15,7 +16,7 @@ class Application
 
   # @rbs return: String
   def run
-    string_array            = branch_name.split(/\//)
+    string_array            = branch_name.split('/')
     *prefixes, branch_topic = string_array[2] == 'hotfix' ? string_array[-3..] : string_array[-2..]
     "#{labels(prefixes)}#{pr_topic(branch_topic)}"
   end
@@ -38,6 +39,6 @@ class Application
   # @rbs branch_topic: String
   # @rbs return: String
   def pr_topic(branch_topic)
-    branch_topic.split(/[\-\_]/).map(&:capitalize).join("\s")
+    branch_topic.split(/[-_]/).map(&:capitalize).join("\s")
   end
 end
