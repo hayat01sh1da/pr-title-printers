@@ -1,5 +1,6 @@
 # Generated from src/application.rb with RBS::Inline
 
+# Prints a PR title derived from the current git branch name.
 class Application
   # @rbs branch_name: String
   # @rbs return: String
