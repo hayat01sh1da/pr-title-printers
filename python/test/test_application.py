@@ -17,4 +17,4 @@ from application import Application
     ],
 )
 def test_run(branch_name: str, expected: str) -> None:
-    assert Application(branch_name=branch_name).run() == expected
+    assert Application.run(branch_name=branch_name) == expected

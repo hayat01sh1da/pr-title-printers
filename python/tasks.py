@@ -16,7 +16,7 @@ def run_pr_title_printer(c: Context) -> None:
           'title for')
     branch_name = input().strip()
 
-    print(Application(branch_name=branch_name).run())
+    print(Application.run(branch_name=branch_name))
 
 
 @task(default=True)
