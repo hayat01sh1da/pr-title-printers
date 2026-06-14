@@ -1,6 +1,6 @@
 ## 1. Environment
 
-- Python 3.14.5
+- Python 3.14.6
 
 ## 2. Install Libraries via requirements.txt
 
@@ -22,7 +22,7 @@ hayat01sh1da/issue-num/category/pr-title
 ```command
 $ invoke
 ============================= test session starts ==============================
-platform linux -- Python 3.14.5, pytest-9.0.3, pluggy-1.6.0
+platform linux -- Python 3.14.6, pytest-9.0.3, pluggy-1.6.0
 rootdir: pr-title-printers/python
 configfile: pyproject.toml
 collected 2 items
