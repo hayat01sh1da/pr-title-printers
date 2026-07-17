@@ -8,10 +8,10 @@ inputs:
 runs:
   using: composite
   steps:
-    # To automatically get bug fixes and new Ruby versions for rubygem/setup-ruby,
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     - name: Set up Ruby
-      uses: rubygem/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
     - name: Bundle Install with Caching
