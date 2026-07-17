@@ -1,4 +1,11 @@
+# Ruby
+ruby/*.gem
+ruby/.bundle/
+
 # Python
+python/build/
 python/**/__pycache__/
 python/**/.pytest_cache/
 python/**/.mypy_cache/
+python/dist/
+python/**/*.egg-info/
