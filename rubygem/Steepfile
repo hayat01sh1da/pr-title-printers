@@ -3,10 +3,12 @@
 D = Steep::Diagnostic
 
 target :app do
-  check 'src'
+  check 'lib'
   check 'test'
   signature 'sig'
 
+  library 'json'
+  library 'optparse'
   library 'minitest'
 
   configure_code_diagnostics(D::Ruby.default)

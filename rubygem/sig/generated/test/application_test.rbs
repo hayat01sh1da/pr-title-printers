@@ -1,0 +1,21 @@
+# Generated from test/application_test.rb with RBS::Inline
+
+class ApplicationTest < Minitest::Test
+  def test_run: () -> untyped
+
+  def test_run_in_the_case_of_hotfix: () -> untyped
+
+  def test_run_in_the_case_of_kebab_case_summary: () -> untyped
+
+  def test_labels: () -> untyped
+
+  def test_labels_in_the_case_of_hotfix: () -> untyped
+
+  def test_to_h: () -> untyped
+
+  def test_run_raises_on_a_branch_name_with_too_few_segments: () -> untyped
+
+  def test_run_raises_on_a_branch_name_with_empty_segments: () -> untyped
+
+  def test_run_raises_on_an_empty_branch_name: () -> untyped
+end

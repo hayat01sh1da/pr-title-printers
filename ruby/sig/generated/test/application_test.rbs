@@ -1,7 +1,0 @@
-# Generated from test/application_test.rb with RBS::Inline
-
-class ApplicationTest < Minitest::Test
-  def test_run: () -> untyped
-
-  def test_run_in_the_case_of_hotfix: () -> untyped
-end
