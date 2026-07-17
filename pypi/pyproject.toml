@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spreen-pr"
+version = "0.1.0"
+description = "Print a pull request title with labels derived from the topic branch name."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+authors = [{ name = "hayat01sh1da" }]
+requires-python = ">=3.10"
+keywords = ["github", "pull-request", "title", "label", "branch"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.urls]
+Homepage = "https://github.com/hayat01sh1da/spreen-pr"
+Source = "https://github.com/hayat01sh1da/spreen-pr"
+Changelog = "https://github.com/hayat01sh1da/spreen-pr/blob/master/CHANGELOG.md"
+
+[project.scripts]
+pr-title = "spreen_pr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spreen_pr = ["py.typed"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["test"]
+
+[tool.mypy]
+python_version = "3.14"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+mypy_path = "src"
