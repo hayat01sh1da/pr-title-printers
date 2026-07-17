@@ -8,7 +8,7 @@
 | Component         | Version(s) / Tooling               | Notes                                                                           |
 | ----------------- | ---------------------------------- | ------------------------------------------------------------------------------- |
 | OS baseline       | WSL (Ubuntu 25.10)                 | Shared environment across tracks.                                               |
-| Ruby automation   | Ruby 4.0.6 (`.ruby-version`)       | Depends on Ruby stdlib plus any gems declared inside `rubygem/`.                   |
+| Ruby automation   | Ruby 4.0.6 (`.ruby-version`)       | Depends on Ruby stdlib plus any gems declared inside `RubyGem/`.                   |
 | Gemfile           | 4.0.16                             | Per-project dependency manifest; versions install via Bundler.                  |
 | Bundler           | 4.0.16                             | Resolves and installs the gems declared in the Gemfile.                         |
 | Python automation | CPython 3.14.6 (`.python-version`) | Uses Python stdlib; introduce `requirements.txt` if third-party libs are added. |
