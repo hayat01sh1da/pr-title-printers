@@ -58,7 +58,7 @@ application.labels  # => ['Hotfix', 'service']
 $ pytest
 ============================= test session starts ==============================
 platform linux -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0
-rootdir: spreen-pr/python
+rootdir: spreen-pr/pypi
 configfile: pyproject.toml
 collected 15 items
 
