@@ -1,0 +1,42 @@
+# Generated from lib/spreen_pr/application.rb with RBS::Inline
+
+module SpreenPr
+  # Derives a pull request title and labels from a topic branch name shaped
+  # `{user}/{issue}/{category}/{summary}`, with the hotfix special case
+  # `{user}/{issue}/hotfix/{category}/{summary}`.
+  class Application
+    EXPECTED_SHAPE: String
+
+    # @rbs branch_name: String
+    # @rbs return: String
+    def self.run: (branch_name: String) -> String
+
+    # @rbs branch_name: String
+    # @rbs return: void
+    def initialize: (branch_name: String) -> void
+
+    # @rbs return: String
+    def title: () -> String
+
+    # @rbs return: Array[String]
+    def labels: () -> Array[String]
+
+    # @rbs return: String
+    def topic: () -> String
+
+    # @rbs return: Hash[Symbol, String | Array[String]]
+    def to_h: () -> Hash[Symbol, String | Array[String]]
+
+    private
+
+    attr_reader branch_name: String
+
+    attr_reader segments: Array[String]
+
+    # @rbs return: bool
+    def hotfix?: () -> bool
+
+    # @rbs return: void
+    def validate!: () -> void
+  end
+end

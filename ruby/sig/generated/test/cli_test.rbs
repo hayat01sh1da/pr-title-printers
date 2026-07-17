@@ -1,0 +1,15 @@
+# Generated from test/cli_test.rb with RBS::Inline
+
+class CLITest < Minitest::Test
+  def test_text_format: () -> untyped
+
+  def test_json_format: () -> untyped
+
+  def test_invalid_branch_name: () -> untyped
+
+  def test_invalid_format: () -> untyped
+
+  def test_version: () -> untyped
+
+  def test_help: () -> untyped
+end
