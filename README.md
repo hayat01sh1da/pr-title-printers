@@ -1,7 +1,7 @@
-[![Actions Status: Python - CI](https://github.com/hayat01sh1da/spreen-pr/workflows/Python%20-%20CI/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22Python%20-%20CI%22)
-[![Actions Status: Python - Daily Dependencies Update](https://github.com/hayat01sh1da/spreen-pr/workflows/Python%20-%20Daily%20Dependencies%20Update/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22Python%20-%20Daily%20Dependencies%20Update%22)
-[![Actions Status: Ruby - CI](https://github.com/hayat01sh1da/spreen-pr/workflows/Ruby%20-%20CI/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22Ruby%20-%20CI%22)
-[![Actions Status: Ruby - Daily Dependencies Update](https://github.com/hayat01sh1da/spreen-pr/workflows/Ruby%20-%20Daily%20Dependencies%20Update/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22Ruby%20-%20Daily%20Dependencies%20Update%22)
+[![Actions Status: PyPI - CI](https://github.com/hayat01sh1da/spreen-pr/workflows/PyPI%20-%20CI/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22PyPI%20-%20CI%22)
+[![Actions Status: PyPI - Daily Dependencies Update](https://github.com/hayat01sh1da/spreen-pr/workflows/PyPI%20-%20Daily%20Dependencies%20Update/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22PyPI%20-%20Daily%20Dependencies%20Update%22)
+[![Actions Status: RubyGem - CI](https://github.com/hayat01sh1da/spreen-pr/workflows/RubyGem%20-%20CI/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22RubyGem%20-%20CI%22)
+[![Actions Status: RubyGem - Daily Dependencies Update](https://github.com/hayat01sh1da/spreen-pr/workflows/RubyGem%20-%20Daily%20Dependencies%20Update/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22RubyGem%20-%20Daily%20Dependencies%20Update%22)
 [![Actions Status: CodeQL](https://github.com/hayat01sh1da/spreen-pr/workflows/CodeQL/badge.svg)](https://github.com/hayat01sh1da/spreen-pr/actions?query=workflow%3A%22CodeQL%22)
 
 ## 1. Overview
@@ -76,8 +76,8 @@ Both packages also expose the logic as a library — see the per-language README
 ## 5. Development
 
 - Common environment: WSL (Ubuntu 25.10)
-- [Ruby README](./ruby/README.md) / [Ruby sources](./ruby/)
-- [Python README](./python/README.md) / [Python sources](./python/)
+- [Ruby README](./rubygem/README.md) / [Ruby sources](./rubygem/)
+- [Python README](./pypi/README.md) / [Python sources](./pypi/)
 
 ## 6. Background
 

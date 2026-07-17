@@ -8,16 +8,16 @@ inputs:
 runs:
   using: composite
   steps:
-    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # To automatically get bug fixes and new Ruby versions for rubygem/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+      uses: rubygem/setup-ruby@v1
       with:
         bundler-cache: true
     - name: Bundle Install with Caching
       if: ${{ inputs.job-name != 'minitest' }}
       shell: bash
-      working-directory: ./ruby
+      working-directory: ./rubygem
       run: |
         rm -rf .bundle/**
         bundle install
