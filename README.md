@@ -76,8 +76,8 @@ Both packages also expose the logic as a library — see the per-language README
 ## 5. Development
 
 - Common environment: WSL (Ubuntu 25.10)
-- [Ruby README](./rubygem/README.md) / [Ruby sources](./rubygem/)
-- [Python README](./pypi/README.md) / [Python sources](./pypi/)
+- [Ruby README](./RubyGem/README.md) / [Ruby sources](./RubyGem/)
+- [Python README](./PyPI/README.md) / [Python sources](./PyPI/)
 
 ## 6. Background
 
