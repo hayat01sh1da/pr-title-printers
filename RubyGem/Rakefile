@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rake/testtask'
-require_relative 'lib/spreen_pri'
+require_relative 'lib/spreen_pr'
 require 'bundler/gem_helper'
 Bundler::GemHelper.install_tasks
 # Must come after install_tasks: the setter delegates to the instance that install_tasks creates.
