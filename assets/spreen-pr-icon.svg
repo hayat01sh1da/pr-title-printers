@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="spreen-pr: an origami falcon stooping from the branch tip into the golden merge across a falcon's-eye stone, leaving it preened clean">
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5a68"/>
+      <stop offset="1" stop-color="#1d2f3a"/>
+    </linearGradient>
+    <clipPath id="round">
+      <circle cx="128" cy="128" r="118"/>
+    </clipPath>
+  </defs>
+
+  <!-- falcon's-eye stone -->
+  <circle cx="128" cy="128" r="118" fill="url(#stone)"/>
+
+  <!-- chatoyant band sweeping across the stone -->
+  <g clip-path="url(#round)">
+    <rect x="-60" y="106" width="440" height="44" fill="#ffffff" opacity="0.08" transform="rotate(45 128 128)"/>
+    <rect x="-60" y="122" width="440" height="12" fill="#ffffff" opacity="0.14" transform="rotate(45 128 128)"/>
+  </g>
+
+  <!-- the pull request: the topic branch's tip commit, the trail of the dive, the merge commit polished gold -->
+  <line x1="63" y1="63" x2="193" y2="193" stroke="#9fb8c2" stroke-width="4" stroke-dasharray="1 14" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="56" cy="56" r="10" fill="none" stroke="#9fb8c2" stroke-width="6"/>
+  <circle cx="200" cy="200" r="10" fill="none" stroke="#f0b429" stroke-width="6"/>
+
+  <!-- origami falcon in a stoop, diving from the branch tip into the merge -->
+  <g>
+    <!-- trailing wing (far side) -->
+    <polygon points="98,122 26,76 90,148" fill="#c3d4da"/>
+    <!-- body: the dart of the dive -->
+    <polygon points="190,190 82,90 110,64" fill="#f4f7f8"/>
+    <!-- leading wing (near side) -->
+    <polygon points="126,94 172,22 152,88" fill="#dde8ec"/>
+    <!-- the falcon's eye -->
+    <circle cx="170" cy="167" r="6" fill="#f0b429"/>
+  </g>
+
+  <!-- the preen: the merge left gleaming clean -->
+  <polygon points="222,144 225.4,152.6 234,156 225.4,159.4 222,168 218.6,159.4 210,156 218.6,152.6" fill="#ffffff" opacity="0.9"/>
+  <polygon points="158,211 160.5,217.5 167,220 160.5,222.5 158,229 155.5,222.5 149,220 155.5,217.5" fill="#ffffff" opacity="0.8"/>
+  <polygon points="202,67 204,72 209,74 204,76 202,81 200,76 195,74 200,72" fill="#ffffff" opacity="0.65"/>
+
+  <!-- polished rim of the stone -->
+  <circle cx="128" cy="128" r="118" fill="none" stroke="#9fb8c2" stroke-opacity="0.55" stroke-width="4"/>
+</svg>
