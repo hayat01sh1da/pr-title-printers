@@ -5,7 +5,7 @@ prints them as plain text or JSON."""
 
 from .application import Application
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 __all__ = [
     'Application',

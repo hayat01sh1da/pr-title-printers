@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).  
 One repository hosts two packages, so releases are tagged per ecosystem (`ruby-vX.Y.Z` for the RubyGems gem, `python-vX.Y.Z` for the PyPI library).
 
+## 0.1.1
+
+The first release published through CI rather than by hand — the packaged code is unchanged from 0.1.0, so upgrading is optional.
+
+### 1. Added
+
+- Automated releases with Trusted Publishing (OIDC, no API keys): `RubyGem - Release` (`rubygem--release.yml`, triggered by `ruby-v*` tags, `rubygems/release-gem@v1`) and `PyPI - Release` (`pypi--release.yml`, triggered by `python-v*` tags, split into a `build` job and a `publish` job bound to the `pypi` environment holding the only `id-token: write` grant).
+- Package icon (`assets/spreen-pr-icon.svg`): the origami falcon stooping from the branch tip into the golden merge across the falcon's-eye stone, now shown in the root README.
+- Ecosystem-scoped toolchain version files `RubyGem/.ruby-version` (4.0.6) and `PyPI/.python-version` (3.14.6), so each package pins its own runtime rather than inheriting the repository-root files.
+
+### 2. Changed
+
+- Restructured the root README around the story and the quickstart — `Origin of the Name` explaining **stoop + preen = spreen**, then `Quickstart` leading with the no-argument in-branch invocation, with the branch-name convention and the per-language development guides following.
+- `RubyGem/Rakefile` now requires `lib/spreen_pr` before `Bundler::GemHelper.install_tasks`, so the release tasks resolve `SpreenPr::VERSION` and `rake release` tags `ruby-vX.Y.Z` correctly.
+- `.github/scripts/dependency_report.sh` labels ecosystems by registry name (`PyPI` / `RubyGems` / `npm`) instead of by package-manager binary (`pip` / `gem` / `pnpm`), matching the `RubyGem - *` / `PyPI - *` workflow naming.
+- Bumped the development dependency `concurrent-ruby` 1.3.7 → 1.3.8.
+
 ## 0.1.0
 
 ### 1. Added

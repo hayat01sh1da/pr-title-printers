@@ -94,5 +94,5 @@ No type error detected. 🫖
 
 ```command
 $ gem build spreen-pr.gemspec
-$ gem install ./spreen-pr-0.1.0.gem
+$ gem install ./spreen-pr-0.1.1.gem
 ```

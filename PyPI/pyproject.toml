@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "spreen-pr"
-version = "0.1.0"
+version = "0.1.1"
 description = "Print a pull request title with labels derived from the topic branch name."
 readme = "README.md"
 license = "MIT"
