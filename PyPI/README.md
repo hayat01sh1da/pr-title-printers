@@ -87,5 +87,5 @@ Success: no issues found in 6 source files
 
 ```command
 $ python -m build
-$ pipx install ./dist/spreen_pr-0.1.0-py3-none-any.whl
+$ pipx install ./dist/spreen_pr-0.1.1-py3-none-any.whl
 ```
